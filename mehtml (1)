@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân - Nguyễn Thị Ngọc</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            width: 85%;
+            max-width: 600px;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        h1 {
+            color: #e75480;
+            font-size: 32px;
+        }
+
+        h2 {
+            color: #555;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+            line-height: 1.8;
+        }
+
+        .avatar {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background: #fbc2eb;
+            margin: 0 auto 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 55px;
+        }
+
+        .hobby {
+            background: #fff0f5;
+            padding: 15px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="avatar">🌸</div>
+
+        <h1>Xin chào!</h1>
+
+        <h2>Tôi là Nguyễn Thị Ngọc</h2>
+
+        <p>
+            Xin chào mọi người! Tôi tên là Nguyễn Thị Ngọc.
+            Tôi sinh năm 2003 và quê hương của tôi là Nghệ An.
+        </p>
+
+        <div class="hobby">
+            <h2>🌷 Sở thích của tôi</h2>
+            <p>🎬 Xem phim</p>
+            <p>🎵 Nghe nhạc</p>
+        </div>
+
+        <p>
+            Rất vui được làm quen với mọi người!
+            Hy vọng chúng ta sẽ có những trải nghiệm
+            thật vui vẻ và thú vị.
+        </p>
+
+        <div class="footer">
+            © 2026 - Trang giới thiệu bản thân của Nguyễn Thị Ngọc
+        </div>
+
+    </div>
+
+</body>
+</html>
